@@ -78,7 +78,7 @@ loginForm.addEventListener("submit", function(e){
     spinner.style.display = "none";
 
     // LOGIN CHECK
-    if(email === "admin" && password === savedPassword){
+    if(email === "glistu123" && password === savedPassword){
       // Remember username if checked
       if(remember.checked) localStorage.setItem("rememberedUser", email);
       else localStorage.removeItem("rememberedUser");
